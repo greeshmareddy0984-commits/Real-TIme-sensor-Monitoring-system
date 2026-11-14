@@ -1,0 +1,26 @@
+Dependencies for Project 'arm_major project', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x559CFDE8)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips--pd "__UVISION_VERSION SETA 526"--list .\listings\startup.lst --xref -o .\objects\startup.o --depend .\objects\startup.d)
+F (.\arm_major project files\uart0_driver.c)(0x6AEEA28C)(--c99 --gnu -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="526"-o .\objects\uart0_driver.o --omf_browse .\objects\uart0_driver.crf --depend .\objects\uart0_driver.d)
+I (C:\Keil_v5\ARM\INC\Philips\lpc21xx.h)(0x559CFE30)
+I (arm_major project files\sensors_header.h)(0x6AEDF056)
+F (.\arm_major project files\delay.c)(0x6AEABBA2)(--c99 --gnu -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="526"-o .\objects\delay.o --omf_browse .\objects\delay.crf --depend .\objects\delay.d)
+I (C:\Keil_v5\ARM\INC\Philips\lpc21xx.h)(0x559CFE30)
+F (.\arm_major project files\adc_init.c)(0x6AEEA1B8)(--c99 --gnu -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="526"-o .\objects\adc_init.o --omf_browse .\objects\adc_init.crf --depend .\objects\adc_init.d)
+I (arm_major project files\sensors_header.h)(0x6AEDF056)
+I (C:\Keil_v5\ARM\INC\Philips\lpc21xx.h)(0x559CFE30)
+F (.\arm_major project files\ldr_read.c)(0x6AEDF0A8)(--c99 --gnu -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="526"-o .\objects\ldr_read.o --omf_browse .\objects\ldr_read.crf --depend .\objects\ldr_read.d)
+I (arm_major project files\sensors_header.h)(0x6AEDF056)
+I (C:\Keil_v5\ARM\INC\Philips\lpc21xx.h)(0x559CFE30)
+F (.\arm_major project files\potenti0_read.c)(0x6AEEA188)(--c99 --gnu -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="526"-o .\objects\potenti0_read.o --omf_browse .\objects\potenti0_read.crf --depend .\objects\potenti0_read.d)
+I (arm_major project files\sensors_header.h)(0x6AEDF056)
+I (C:\Keil_v5\ARM\INC\Philips\lpc21xx.h)(0x559CFE30)
+F (.\arm_major project files\temp_read.c)(0x6AEEA169)(--c99 --gnu -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="526"-o .\objects\temp_read.o --omf_browse .\objects\temp_read.crf --depend .\objects\temp_read.d)
+I (arm_major project files\sensors_header.h)(0x6AEDF056)
+I (C:\Keil_v5\ARM\INC\Philips\lpc21xx.h)(0x559CFE30)
+F (.\arm_major project files\timer0_init.c)(0x6AEE9DC9)(--c99 --gnu -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="526"-o .\objects\timer0_init.o --omf_browse .\objects\timer0_init.crf --depend .\objects\timer0_init.d)
+I (arm_major project files\sensors_header.h)(0x6AEDF056)
+I (C:\Keil_v5\ARM\INC\Philips\lpc21xx.h)(0x559CFE30)
+F (.\arm_major project files\sensors_header.h)(0x6AEDF056)()
+F (.\arm_major project files\sensors_main.c)(0x6AEEA065)(--c99 --gnu -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="526"-o .\objects\sensors_main.o --omf_browse .\objects\sensors_main.crf --depend .\objects\sensors_main.d)
+I (arm_major project files\sensors_header.h)(0x6AEDF056)
+I (C:\Keil_v5\ARM\INC\Philips\lpc21xx.h)(0x559CFE30)

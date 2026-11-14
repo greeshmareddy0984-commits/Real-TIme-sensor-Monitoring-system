@@ -1,0 +1,14 @@
+--cpu ARM7TDMI
+".\objects\startup.o"
+".\objects\uart0_driver.o"
+".\objects\delay.o"
+".\objects\adc_init.o"
+".\objects\ldr_read.o"
+".\objects\potenti0_read.o"
+".\objects\temp_read.o"
+".\objects\timer0_init.o"
+".\objects\sensors_main.o"
+--strict --scatter ".\Objects\arm_major project.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\arm_major project.map" -o ".\Objects\arm_major project.axf"
