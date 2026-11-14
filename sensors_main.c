@@ -24,7 +24,7 @@
     {
   uart0_tx_string("\r\nSECONDS  :");
   uart0_tx_integer(tick);
-  uart0_tx_string("\r\nSECONDS :");
+  uart0_tx_string("\r\n Sensor SECONDS :");
   uart0_tx_integer(c);
   uart0_tx_string("\r\nTEMPERATURE  :");
 			
@@ -35,6 +35,7 @@
   }
 	
   uart0_tx_integer(temp);
+  uart0_tx_string(" C");
   uart0_tx_string("\r\nPOTENTIOMETER  :");
   if(flag==2)
   {
@@ -43,6 +44,7 @@
   }
 	
   uart0_tx_integer(pot_value);
+  uart0_tx_string(" %");	
   uart0_tx_string("\r\nLDR VALUE  :");
   if(flag==3)
   {
@@ -51,6 +53,7 @@
   }
 	
   uart0_tx_integer(ldr_value);
+  uart0_tx_string(" %");
   
   if(flame)
   uart0_tx_string("\r\nFLAME  :ON");
