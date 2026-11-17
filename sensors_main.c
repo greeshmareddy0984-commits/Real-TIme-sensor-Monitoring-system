@@ -56,14 +56,14 @@
   uart0_tx_string(" %");
   
   if(flame)
-  uart0_tx_string("\r\nFLAME  :ON");
+  uart0_tx_string("\r\nFLAME  :OFF");
   else
-  uart0_tx_string("\r\nFLAME   :OFF");
+  uart0_tx_string("\r\nFLAME   :ON");
 	
   if(vibration)
-  uart0_tx_string("\r\nVIBRATION  : ON");
-  else
   uart0_tx_string("\r\nVIBRATION  : OFF");
+  else
+  uart0_tx_string("\r\nVIBRATION  : ON");
   
   if(temp>30)
   {
