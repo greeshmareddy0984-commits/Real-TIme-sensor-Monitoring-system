@@ -6,9 +6,9 @@
    
   /***sensor functions  ***/
   
-  unsigned int ldr_read(unsigned int CH_LDR);
-  unsigned int temp_read(unsigned int ch_num);
-  unsigned int potentiometer_read(unsigned int CH_POT);
+  float ldr_read(unsigned int CH_LDR);
+  float temp_read(unsigned int ch_num);
+  float potentiometer_read(unsigned int CH_POT);
   
   
   /***timer functions***/
