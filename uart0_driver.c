@@ -71,7 +71,7 @@ ptr++;
   uart0_tx('-');
   }
   a=(int)num;
-  b=(num-a)*1000000;
+  b=(num-a)*10000;
   
   uart0_tx_integer(a);
   uart0_tx('.');
