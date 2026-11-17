@@ -1,6 +1,6 @@
 #include "sensors_header.h"
    
-  unsigned int flag=0,flag1=0;
+  unsigned int flag=0;
 	unsigned int tick=0;
 	
    void timer0_init(void)
@@ -9,9 +9,9 @@
   if(VPBDIV==0)
   pclk=15000;
   else if(VPBDIV==1)
-  pclk=60000000;
+  pclk=60000;
   else if(VPBDIV==2)
-  pclk=30000000;
+  pclk=30000;
   T0TCR=0X02;
   T0PC=0;
   T0PR=pclk-1;
@@ -36,13 +36,13 @@
   void timer_handler(void) __irq
   {
     c++;
-		if(c==3)
+		if(c==2)
     flag= 1;
-    if(c==8)
+    if(c==4)
     flag=2;
-    if(c==18)
+    if(c==6)
     flag=3;
-		if(c>18)
+		if(c>10)
 			c=0;
 		if(c==10)
 		{
