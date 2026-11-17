@@ -1,12 +1,12 @@
 #include"sensors_header.h"
   
-   unsigned int potentiometer_read(unsigned int CH_POT)
+   float potentiometer_read(unsigned int CH_POT)
    {
      
-       unsigned int adc_value;
-       unsigned int Vout;
+       float adc_value;
+       float Vout;
        adc_value=adc_read(CH_POT);
-       Vout=(adc_value*3300)/1023; // volatge conversions from potentiometer value 
+       Vout=(adc_value*3.3)/1023; // volatge conversions from potentiometer value 
        return Vout;  
   
   }
